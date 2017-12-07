@@ -65,6 +65,10 @@ sensor:
         description: Defines a template for the entity picture of the sensor.
         required: false
         type: template
+      force_update:
+        description: Sends update events even if the value hasn’t changed.
+        required: false
+        type: boolean
 {% endconfiguration %}
 
 ## {% linkable_title Considerations %}
