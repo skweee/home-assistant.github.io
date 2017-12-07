@@ -50,4 +50,4 @@ Configuration variables:
 - **devices** array (*Required*): List of thermostats.
   - **[device-name]** (*Required*): The name to use for the thermostat.
     - **mac** (*Required*): MAC address of the thermostat.
-
+    - **force_update** (*Optional*): Sends update events even if the value hasn’t changed.
